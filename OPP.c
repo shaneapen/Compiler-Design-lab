@@ -73,3 +73,24 @@ printf("\t\t\t");
 }
 }
 
+// Enter the no.of terminals:4
+
+// Enter the terminals:i*+$
+
+// Enter the table values:
+// Enter the value for i i:>
+// Enter the value for i *:>
+// Enter the value for i +:>
+// Enter the value for i $:>
+// Enter the value for * i:<
+// Enter the value for * *:>
+// Enter the value for * +:>
+// Enter the value for * $:>
+// Enter the value for + i:<
+// Enter the value for + *:<
+// Enter the value for + +:>
+// Enter the value for + $:>
+// Enter the value for $ i:<
+// Enter the value for $ *:<
+// Enter the value for $ +:<
+// Enter the value for $ $:>

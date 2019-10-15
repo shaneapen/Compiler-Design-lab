@@ -71,3 +71,9 @@ follow(a[i][0]);
 }
 }
 }
+
+// Enter the no of productions: 3
+// Enter the productions:
+// S=AB
+// A=a
+// B=b
