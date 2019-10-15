@@ -1,25 +1,24 @@
 #include<stdio.h>
-void main()
+int main()
 {
-unsigned int n;
-int x;
-int ch;
-printf("\nEnter no: of iterations : ");
-scanf("%u",&n);
-
-do{
-  x=countbit(n);
-  n=x;
-  printf("\n\nLoop count : %d\n" ,x);
- printf("\nContinue ? :\n\t1.Yes \n\t2.No\n");
-printf("\nEnter ur choice : ");
-scanf(" %d",&ch);
-}while(ch==1);
+int i,j=1,n,ch=1;
+char str[30];
+printf("\nEnter the statement in the loop : ");
+scanf("%[^\n]",str);
+printf("\nEnter the no : iteration : ");
+scanf("%d",&n);
+while(ch==1)
+{
+printf("Continue ? : \n\t1.Yes \n\t2.No\nChoice : ");
+scanf("%d",&ch);
+j++;
+}
+printf("\nThe unrolled loop : ");
+printf("\n\tfor(i=%d;i>0;i-%d)",n,j);
+for(i=0;i<j;i++)
+{
+printf("\n\t\t %s",str);
+}
 printf("\n");
+return(0);
 }
-int countbit(unsigned int n)
-{
-    n=n/2;
-    return n;
-}
-
